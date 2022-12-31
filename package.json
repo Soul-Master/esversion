@@ -1,0 +1,29 @@
+{
+  "name": "esversion",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Soul-Master/esversion.git"
+  },
+  "version": "0.1.0",
+  "description": "Detect ECMA/JavaScript version of local file via `detect-es-version` package",
+  "main": "index.js",
+  "bin": {
+    "esversion": "./index.js"
+  },
+  "keywords": [
+    "detect",
+    "javascript",
+    "ecmascript",
+    "version",
+    "es2016",
+    "es2017",
+    "es2018",
+    "es2019",
+    "es2020"
+  ],  
+  "license": "Apache-2.0",
+  "author": "soul_master",
+  "dependencies": {
+    "detect-es-version": "^0.1.4"
+  }
+}
